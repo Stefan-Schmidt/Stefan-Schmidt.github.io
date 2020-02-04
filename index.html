@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+{% comment %}
 {% include career-profile.html %}
 
 {% unless site.data.data.sidebar.education %}
@@ -12,7 +12,8 @@ layout: default
 {% include experiences.html %}
 
 {% include projects.html %}
-
+{% endcomment %}
 {% include publications.html %}
-
+{% comment %}
 {% include skills.html %}
+{% endcomment %}

@@ -18,13 +18,27 @@
 
   {% for publication in publications.papers %}
   <div class="item">
+    <li><div class="publication-conference">{{ publication.event }}, {{ publication.location }}, {{ publication.date }}</div></li>
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      <a href="{{ publication.link }}">{{ publication.title }}</a>
     {% else %}
-      <li>{{ publication.title }}</li>
+      {{ publication.title }}
     {% endif %}
     <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+    <div class="publication-slides">
+      {% if publication.slides %}
+      <i class="fas fa-file-pdf"></i>
+      <a href="{{ publication.slides }}">Slides</a>
+      {% endif %}
+      {% if publication.video %}
+      <i class="fas fa-file-video"></i>
+      <a href="{{ publication.video }}">Video</a>
+      {% endif %}
+      {% if publication.paper %}
+      <i class="fas fa-file-pdf"></i>
+      <a href="{{ publication.paper }}">Paper</a>
+      {% endif %}
+    </div>
   </div><!--//item-->
   {% endfor %}
 

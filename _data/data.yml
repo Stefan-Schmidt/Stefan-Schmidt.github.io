@@ -3,45 +3,36 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Stefan Schmidt
+    tagline: Open Source Developer
+    avatar: profile-pic.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: stefan@sostec.de
+    phone: 
+    website: sostec.de #do not add http://
+    linkedin: stefan-schmidt-84a7266
+    github: stefan-schmidt
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: German
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
-        link:
-
       - item: Snowboarding
-        link:
-
-      - item: Cooking
         link:
 
 career-profile:
@@ -141,27 +132,420 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Presentations
+    intro: "Over the years I became a regular public speaker on Open Source conferences. A not fully comprehensive list of my talks can be found below. \n"
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        -
+            event: 'Enlightenment Developer Days'
+            date: 2019-11-24
+            location: 'Barcelona, Spain'
+            title: 'EFL community & roadmap'
+            abstract: null
+            link: 'https://phab.enlightenment.org/w/events/enlightenment_developer_days_2019/#schedule'
+            slides: 'https://phab.enlightenment.org/file/download/sqpcyyfgxbevhhhbuqeo/PHID-FILE-va46gab7y4uqw2g2kzcl/EDD2019-04-roadmap.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Enlightenment Developer Days'
+            date: 2019-11-24
+            location: 'Barcelona, Spain'
+            title: 'Tooling and infrastructure session'
+            abstract: null
+            link: 'https://phab.enlightenment.org/w/events/enlightenment_developer_days_2019/#schedule'
+            slides: 'https://phab.enlightenment.org/file/download/v64favqtle4spkyq7tdi/PHID-FILE-fxwg4pemdxujjps232ol/EDD2019-03-tooling.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Enlightenment Developer Days'
+            date: 2019-11-23
+            location: 'Barcelona, Spain'
+            title: 'EFL tree maintenance & cleanup'
+            abstract: null
+            link: 'https://phab.enlightenment.org/w/events/enlightenment_developer_days_2019/#schedule'
+            slides: 'https://phab.enlightenment.org/file/download/f2zxa4gjyxpjv4k3urpz/PHID-FILE-yg4wlpsyruod3opowmon/EDD2019-02-cleanup.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Linux Plumber Conf'
+            date: 2019-09-09
+            location: 'Lisbon, Portigal'
+            title: 'The ieee802154 and 6lowpan Kernel Subsystems'
+            link: 'https://linuxplumbersconf.org/event/4/contributions/374/'
+            slides: 'https://linuxplumbersconf.org/event/4/contributions/374/attachments/282/472/LPC2019-Linux-wpan.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'NetdevConf 0x13'
+            date: 2019-03-20
+            location: 'Prague, Czech Republic'
+            title: 'Workshop on IoT related MAC layers, header compressions and routing protocols'
+            link: 'https://netdevconf.info/0x13/session.html?workshop-on-iot-related-mac-layers-header-compressions-and-routing-protocols'
+            slides: 'https://www.files.netdevconf.info/f/0d377af2979f422884ef/?dl=1'
+            video: 'https://youtu.be/HyJt_0GvPxA'
+            paper: null
+            misc: null
+        -
+            event: 'Linux Piter'
+            date: 2018-11-03
+            location: 'St. Petersburg, Russia'
+            title: 'The ieee802154 and 6lowpan Kernel Subsystems'
+            link: 'https://linuxpiter.com/en/materials/2468'
+            slides: 'https://linuxpiter.com/system/attachments/files/000/001/497/original/Linux-Piter-ieee802154-draft.pdf?1541021775'
+            video: 'https://www.youtube.com/watch?v=gNZiI3pUalM (ENG)'
+            paper: null
+            misc: null
+        -
+            event: 'NetdevConf 0x12'
+            date: 2018-07-11
+            location: 'Montreal, Canada'
+            title: 'Workshop on IoT related MAC layers, header compression and routing protocols'
+            link: 'https://netdevconf.info/0x12/session.html?workshop-on-iot-related-mac-layers-header-compression-and-routing-protocols'
+            slides: 'https://www.files.netdevconf.info/d/8189333e1cc24212bd74/'
+            video: 'https://youtu.be/xnhvll2BSHQ'
+            paper: null
+            misc: null
+        -
+            event: 'Linaro Connect HKG18'
+            date: 2018-04-11
+            location: 'Hong Kong'
+            title: 'Bootstrapping a LoRa Linux project'
+            link: 'https://connect.linaro.org/resources/hkg18/hkg18-218/'
+            slides: 'http://connect.linaro.org.s3.amazonaws.com/hkg18/presentations/hkg18-218.pdf'
+            video: 'http://connect.linaro.org.s3.amazonaws.com/hkg18/videos/hkg18-218.mp4'
+            paper: null
+            misc: null
+        -
+            event: 'FOSDEM 2018'
+            date: 2018-02-04
+            location: 'Brussels, Belgium'
+            title: 'Rapid SPI Device Driver Development over USB'
+            link: 'https://archive.fosdem.org/2018/schedule/event/rapid_spi_over_usb/'
+            slides: 'https://archive.fosdem.org/2018/schedule/event/rapid_spi_over_usb/attachments/audio/2461/export/events/attachments/rapid_spi_over_usb/audio/2461/USB_SPI_FOSDEM_2018.pdf'
+            video: 'https://video.fosdem.org/2018/UB2.252A/rapid_spi_over_usb.mp4'
+            paper: null
+            misc: null
+        -
+            event: 'Hack & Söhne Tech Talk'
+            date: 2017-12-06
+            location: 'Karlsruhe, Germany'
+            title: 'Open Source - The software, the communities, the culture'
+            link: 'https://hackundsoehne.de/samsungopensource.html'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'NetdevConf 2.1'
+            date: 2017-04-08
+            location: 'Montreal, Canada'
+            title: 'IoT related MAC layers, header compression and routing protocols'
+            link: 'https://netdevconf.info/2.1/session.html?schmidt'
+            slides: 'https://netdevconf.info/2.1/slides/apr8/schmidt-netdev-workshop.pdf'
+            video: 'https://www.youtube.com/watch?v=rseB3PsPWHg'
+            paper: null
+            misc: null
+        -
+            event: 'Linaro Connect BUD17'
+            date: 2017-02-28
+            location: 'Budapest, Hungary'
+            title: 'Linux-wpan - IEEE 802.15.4 and 6LoWPAN in the Linux Kernel'
+            link: 'https://connect.linaro.org/resources/bud17/bud17-120/'
+            slides: 'http://connect.linaro.org.s3.amazonaws.com/bud17/Presentations/BUD17-120%20-%20Linux-wpan-%20IEEE%20802.15.4%20and%206LoWPAN%20in%20the%20Linux%20Kernel.pdf'
+            video: 'https://s3.amazonaws.com/connect.linaro.org/bud17/Videos/Monday/BUD17-120%20Linux-wpan%20%20IEEE%20802.15.4%20and%206LoWP.mp4'
+            paper: null
+            misc: null
+        -
+            event: 'FOSDEM 2017'
+            date: 2017-02-05
+            location: 'Brussels, Belgium'
+            title: 'Adding IEEE 802.15.4 and 6LoWPAN to an Embedded Linux Device'
+            link: 'https://archive.fosdem.org/2017/schedule/event/lowpan_embedded/'
+            slides: 'https://archive.fosdem.org/2017/schedule/event/lowpan_embedded/attachments/slides/1729/export/events/attachments/lowpan_embedded/slides/1729/FOSDEM_2017_linux_wpan.pdf'
+            video: 'https://video.fosdem.org/2017/UD2.218A/lowpan_embedded.mp4'
+            paper: null
+            misc: null
+        -
+            event: 'OpenIoT Summit Europe'
+            date: 2016-10-11
+            location: 'Berlin, Germany'
+            title: 'Run Your Own 6LoWPAN Based IoT Network'
+            link: 'https://openiotelceurope2016.sched.com/event/7rrF/run-your-own-6lowpan-based-iot-network-stefan-schmidt-samsung'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'NetdevConf 1.2'
+            date: 2016-10-05
+            location: 'Tokyo, Japan'
+            title: 'Practical Guide to Run an IEEE 802.15.4 Network with 6LoWPAN under Linux'
+            link: 'https://netdevconf.info/1.2/session.html?stefan-schmidt'
+            slides: 'https://netdevconf.info/1.2/slides/oct5/01_stefen_schmidt_netdevconf_2016_linux_wpan_short_version.pdf'
+            video: 'https://www.youtube.com/watch?v=XykCwAC5Pdw'
+            paper: null
+            misc: null
+        -
+            event: 'RIOT Summit'
+            date: 2016-07-15
+            location: 'Berlin, Germany'
+            title: 'Introduction to Linux-wpan and Potential Cooperation'
+            abstract: null
+            link: 'http://summit.riot-os.org/2016/blog/team/stefan-schmidt/'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Enlightenment Developer Days'
+            date: 2016-05-14
+            location: 'Paris, France'
+            title: 'QA improvements coming with the EFL 1.18'
+            link: 'https://phab.enlightenment.org/w/events/enlightenment_developer_days_2016/#schedule'
+            slides: 'https://phab.enlightenment.org/file/download/ivrbzyy33rfcbelu5ebw/PHID-FILE-yyzj2c2gzrvgs5c4eimd/EFL-Dev-Days-2016-QA-slides.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'OpenIoT Summit'
+            date: 2016-04-06
+            location: 'San Diego, California, USA'
+            title: '6LoWPAN - An Open IoT Networking Protocol'
+            link: 'https://openiotelc2016.sched.com/event/6DBi/6lowpan-an-open-iot-networking-protocol-stefan-schmidt-samsung?iframe=yes&w=100%&sidebar=yes&bg=no#'
+            slides: 'http://events17.linuxfoundation.org/sites/events/files/slides/6lowpan-openiot-2016.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Samsung Open Source Conference'
+            date: 2015-10-28
+            location: 'Seoul, South Korea'
+            title: '6LoWPAN - An Open IoT Networking Protocol'
+            link: 'https://www.sosconhistory.net/soscon2015/program.html'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'LinuxCon Europe'
+            date: 2015-10-07
+            location: 'Dublin, Ireland'
+            title: 'Static Analysis of your OSS Project with Coverity'
+            link: 'https://lceeu2015.sched.com/event/3xSb/static-analysis-of-your-oss-project-with-coverity-stefan-schmidt?iframe=yes&w=100%&sidebar=yes&bg=no#'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Enlightenment Developer Day EU'
+            date: 2015-10-04
+            location: 'Dublin, Ireland'
+            title: 'QA Status Report'
+            link: 'https://phab.enlightenment.org/w/events/enlightenment_developer_day_2015/#schedule'
+            slides: 'https://phab.enlightenment.org/file/download/exillofdk4nem67snkji/PHID-FILE-ipwemayhossjuxsza7dz/EFL-Dev-Day-EU-2015-QA-slides.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Enlightenment Developer Day USA'
+            date: 2015-03-26
+            location: 'Mountain View, California, USA'
+            title: 'QA - Where We Are And Where We Should Go'
+            abstract: null
+            link: 'https://phab.enlightenment.org/w/events/enlightenment_developer_day_us_2015/#schedule'
+            slides: 'https://phab.enlightenment.org/file/download/b2d5abv23j3cfyh2gaho/PHID-FILE-jy3fq622quzrsl7voa3k/EFL-Dev-Day-US-2015-QA-slides.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Embedded Linux Conference'
+            date: 2015-03-25
+            location: 'San Jose, California, USA'
+            title: 'Status Report for IEEE 802.15.4 and 6LoWPAN in Linux'
+            link: 'http://events17.linuxfoundation.org/events/archive/2015/embedded-linux-conference/program/schedule'
+            slides: 'http://events17.linuxfoundation.org/sites/events/files/slides/ELC-US-2015.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'FOSDEM 2015'
+            date: 2015-02-01
+            location: 'Brussels, Belgium'
+            title: 'Lessons Learned with Time Based Releases for EFL'
+            link: 'https://archive.fosdem.org/2015/schedule/event/lessons_learned_with_time_based_releases_for_efl/'
+            slides: 'https://archive.fosdem.org/2015/schedule/event/lessons_learned_with_time_based_releases_for_efl/attachments/slides/698/export/events/attachments/lessons_learned_with_time_based_releases_for_efl/slides/698/FOSDEM_2015_EFL_releases.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Linux Plumbers Conf 2014'
+            date: 2014-10-17
+            location: 'Düsseldorf, Germany'
+            title: 'Enlightenment as Wayland Compositor'
+            link: 'https://blog.linuxplumbersconf.org/2014/ocw/proposals/1833'
+            slides: 'http://www.linuxplumbersconf.net/2014/ocw//system/presentations/1833/original/LPC-2014-EWayland.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Enlightenment Developer Day'
+            date: 2014-10-12
+            location: 'Düsseldorf, Germany'
+            title: 'Releases Status Report'
+            abstract: null
+            link: 'https://phab.enlightenment.org/w/events/enlightenment_developer_day_2014/#schedule'
+            slides: 'https://phab.enlightenment.org/file/data/2caihl4r7mpyzsrqfnro/PHID-FILE-e6aj6ar6cxjejodkfvbo/EFL-dev-day-release-status-new.pdf'
+            video: 'http://youtu.be/uZ_5bh6iePc'
+            paper: null
+            misc: null
+        -
+            event: 'Enlightenment Developer Day'
+            date: 2014-10-12
+            location: 'Düsseldorf, Germany'
+            title: 'QA Statistics'
+            abstract: null
+            link: 'https://phab.enlightenment.org/w/events/enlightenment_developer_day_2014/#schedule'
+            slides: 'https://phab.enlightenment.org/file/download/4ni3n32fdbjqrnx6xso4/PHID-FILE-gvyiba2beehk45ywrtqg/EFL-dev-day-qa-statistics-new.pdf'
+            video: 'http://youtu.be/NfsaWydnGfE'
+            paper: null
+            misc: null
+        -
+            event: 'LinuxTag 2014'
+            date: 2014-05-08
+            location: 'Berlin, Germany'
+            title: 'Bring your Project from a 10 Years to a 3 Months Release Cycle'
+            link: 'http://www.linuxtag.org/2014/en/program/talk-details/1324/index.html'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'FOSDEM 2014'
+            date: 2014-02-01
+            location: 'Brussels, Belgium'
+            title: 'Enlightenment as Standalone Wayland Compositor'
+            link: 'https://archive.fosdem.org/2014/schedule/event/enlightenment_standalone_wayland_compositor/'
+            slides: 'https://archive.fosdem.org/2014/schedule/event/enlightenment_standalone_wayland_compositor/attachments/slides/462/export/events/attachments/enlightenment_standalone_wayland_compositor/slides/462/Enlightenment_Wayland_Compositor.pdf'
+            video: 'http://video.fosdem.org/2014/H1308_Rolin/Saturday/Enlightenment_as_Standalone_Wayland_Compositor.webm'
+            paper: null
+            misc: null
+        -
+            event: 'FOSS.IN 2009'
+            date: 2009-12-04
+            location: 'Bangalore, India'
+            title: 'Palm Pre - A Hacker Paradise?'
+            link: 'https://web.archive.org/web/20091215183156/http://foss.in/2009/schedules/talkdetailspub.php?talkid=80'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'FOSS.IN 2009'
+            date: 2009-12-01
+            location: 'Bangalore, India'
+            title: 'Freesmartphone.org - FOSS middleware for mobile devices'
+            link: 'https://web.archive.org/web/20091215183156/http://foss.in/2009/schedules/talkdetailspub.php?talkid=79'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'LinxTag 2008'
+            date: 2008-05-28
+            location: 'Berlin, Germany'
+            title: 'OpenEZX - unleashing the full potential of Motorola mobile phones'
+            abstract: null
+            link: null
+            slides: 'https://docplayer.net/16356685-Stefan-schmidt-stefan-openezx-org-linuxtag-2008-05-28.html'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Mobile Developer Days'
+            date: 2007-08-31
+            location: 'Aalborg, Denmark'
+            title: 'OpenEZX -- unleashing the full potential of Motorola EZX mobile phones'
+            abstract: null
+            link: 'http://mobiledevices.kom.aau.dk/team_and_organization/events/mobile_developer_days_2007/mdd07_program/'
+            slides: 'http://mobiledevices.kom.aau.dk/fileadmin/mobiledevices/MDD07/slides/openezx.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Libre Software Meeting'
+            date: 2007-05-27
+            location: 'Amiens, France'
+            title: null
+            abstract: null
+            link: null
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'FOSDEM 2007'
+            date: 2007-02-05
+            location: 'Brussels, Belgium'
+            title: 'OpenEZX, how to free Motorola linux smartphones.'
+            link: 'https://archive.fosdem.org/2007/schedule/events/embedded_openezx.html'
+            slides: 'https://archive.fosdem.org/2007/slides/devrooms/embedded/Stefan_Schmidt_OpenEZX.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'LUG Camp'
+            date: 2006-05-27
+            location: 'Schwabach, Germany'
+            title: OpenEZX
+            abstract: null
+            link: null
+            slides: null
+            video: null
+            paper: null
+            misc: null
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+#    title: Presentations
+#    intro: |
+#      I am a regular public speaker on Open Source conferences.
+#    papers:
+#      - title: OpenEZX, how to free Motorola linux smartphones.
+#        link: "https://archive.fosdem.org/2007/schedule/events/embedded_openezx.html"
+#        slides: "https://archive.fosdem.org/2007/slides/devrooms/embedded/Stefan_Schmidt_OpenEZX.pdf"
+#        authors:
+#        conference: FOSDEM, Brussels, Belgium, 2007-02-05
+#
+#      - title: Workshop on IoT related MAC layers, header compressions and routing protocols
+#        link: "https://netdevconf.info/0x13/session.html?workshop-on-iot-related-mac-layers-header-compressions-and-routing-protocols"
+#        slides: "https://www.files.netdevconf.info/f/0d377af2979f422884ef/?dl=1"
+#        video: "https://youtu.be/HyJt_0GvPxA"
+#        authors:
+#        conference: NetdevConf 0x13, Prague, Czech Republic, 2019-03-20
 
 skills:
     title: Skills &amp; Proficiency
