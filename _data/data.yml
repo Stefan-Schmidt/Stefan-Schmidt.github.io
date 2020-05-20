@@ -18,6 +18,7 @@ sidebar:
     linkedin: stefan-schmidt-84a7266
     github: stefan-schmidt
     gitlab:
+    kernel: git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=Stefan+Schmidt
     bitbucket:
     twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
