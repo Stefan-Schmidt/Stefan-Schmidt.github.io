@@ -140,6 +140,27 @@ publications:
     intro: "Over the years I became a regular public speaker on Open Source conferences. A not fully comprehensive list of my talks can be found below. \n"
     papers:
         -
+            event: 'Linux Plumbers Conf'
+            date: 2020-08-27
+            location: 'Online Conference'
+            title: 'ieee802154 and rpld updates'
+            link: 'https://linuxplumbersconf.org/event/7/contributions/668/'
+            slides: 'https://linuxplumbersconf.org/event/7/contributions/668/attachments/643/1176/LPC-2020-linux-wpan.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'NetdevConf 0x14'
+            date: 2020-08-13
+            location: 'Online conference'
+            title: 'IoT Networking Workshop'
+            abstract: null
+            link: 'https://netdevconf.info/0x14/session.html?workshop-iot-networking'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
             event: 'Enlightenment Developer Days'
             date: 2019-11-24
             location: 'Barcelona, Spain'
@@ -173,9 +194,9 @@ publications:
             paper: null
             misc: null
         -
-            event: 'Linux Plumber Conf'
+            event: 'Linux Plumbers Conf'
             date: 2019-09-09
-            location: 'Lisbon, Portigal'
+            location: 'Lisbon, Portugal'
             title: 'The ieee802154 and 6lowpan Kernel Subsystems'
             link: 'https://linuxplumbersconf.org/event/4/contributions/374/'
             slides: 'https://linuxplumbersconf.org/event/4/contributions/374/attachments/282/472/LPC2019-Linux-wpan.pdf'
