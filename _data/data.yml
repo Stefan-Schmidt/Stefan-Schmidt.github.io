@@ -156,8 +156,8 @@ publications:
             title: 'IoT Networking Workshop'
             abstract: null
             link: 'https://netdevconf.info/0x14/session.html?workshop-iot-networking'
-            slides: null
-            video: null
+            slides: 'https://netdevconf.info/0x14/pub/slides/14/2020-08-Netdev-IoT-workshop.pdf'
+            video: 'https://www.youtube.com/watch?v=HYV-0FFf_Jo'
             paper: null
             misc: null
         -
