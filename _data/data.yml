@@ -140,6 +140,26 @@ publications:
     intro: "Over the years I became a regular public speaker on Open Source conferences. A not fully comprehensive list of my talks can be found below. \n"
     papers:
         -
+            event: 'Yocto Summit'
+            date: 2021-05-26
+            location: 'Online Conference'
+            title: 'Case Study: Yocto / OpenEmbedded in All Scenarios OS'
+            link: 'https://pretalx.com/yocto-project-summit-2021/talk/PRYUYZ/'
+            slides: 'https://pretalx.com/media/yocto-project-summit-2021/submissions/PRYUYZ/resources/Yocto-summit-2021-all-scenarios-o_yOAUWDK.pdf'
+            video: 'https://www.youtube.com/watch?v=4-ttb0P0iis'
+            paper: null
+            misc: null
+        -
+            event: 'FOSDEM 2021'
+            date: 2021-02-06
+            location: 'Online Conference'
+            title: 'Open Harmony - more than an OS'
+            link: 'https://fosdem.org/2021/schedule/event/open_harmony_os/'
+            slides: 'https://fosdem.org/2021/schedule/event/open_harmony_os/attachments/slides/4597/export/events/attachments/open_harmony_os/slides/4597/fosdem2021_openharmony.pdf'
+            video: 'https://video.fosdem.org/2021/D.embedded/open_harmony_os.mp4'
+            paper: null
+            misc: null
+        -
             event: 'Linux Plumbers Conf'
             date: 2020-08-27
             location: 'Online Conference'
