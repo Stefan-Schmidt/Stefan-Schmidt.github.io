@@ -140,6 +140,56 @@ publications:
     intro: "Over the years I became a regular public speaker on Open Source conferences. A not fully comprehensive list of my talks can be found below. \n"
     papers:
         -
+            event: 'SFSCon'
+            date: 2021-11-12
+            location: 'Bolzano, Italy'
+            title: 'The Rise of IPv6 in IoT Protocols'
+            link: 'https://www.sfscon.it/talks/the-raise-of-ipv6-in-iot-protocols/'
+            slides: 'https://www.slideshare.net/SFScon/sfscon-21-stefan-schmidt-the-rise-of-ipv6-in-iot-protocols'
+            video: 'https://vimeo.com/650050910'
+            paper: null
+            misc: null
+        -
+            event: 'SFSCon'
+            date: 2021-11-13
+            location: 'Bolzano, Italy'
+            title: 'Oniro DevDay'
+            link: null
+            slides: 'https://gitlab.eclipse.org/eclipse-wg/oniro-wg/proposal-incubation-stage-oniro/proposal-incubation-oniro-marketing/-/tree/main/Presentations/Oniro-Dev-Day-2021'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'EclipseCon'
+            date: 2021-10-25
+            location: 'Online Conference'
+            title: 'Oniro close up: Technical Architecture, Yocto-based build system, build flavours'
+            link: 'https://www.eclipsecon.org/2021/sessions/oniro-close-technical-architecture-yocto-based-build-system-build-flavours'
+            slides: null
+            video: 'https://www.youtube.com/watch?v=EuxahV137rU'
+            paper: null
+            misc: null
+        -
+            event: 'Linux Plumbers Conf'
+            date: 2021-09-24
+            location: 'Online Conference'
+            title: 'IoT Gateway Blueprint with Thread and Matter'
+            link: 'https://linuxplumbersconf.org/event/11/contributions/918/'
+            slides: 'https://linuxplumbersconf.org/event/11/contributions/918/attachments/918/1785/2021-09-24-LPC-IoT-thread-and-matter.pdf'
+            video: 'https://youtu.be/ujBwLCa3W4M&t=7698'
+            paper: null
+            misc: null
+        -
+            event: 'NetdevConf 0x15'
+            date: 2021-07-13
+            location: 'Online Conference'
+            title: 'IoT Networking Workshop'
+            link: 'https://netdevconf.info/0x15/session.html?IoT-Networking-Workshop'
+            slides: 'https://netdevconf.info/0x15/slides/9/NetdevConf-0x15-IoT-workshop-final.pdf'
+            video: 'https://www.youtube.com/watch?v=6mfA6WCakr0&list=PLrninrcyMo3L-hsJv23hFyDGRaeBY1EJO'
+            paper: null
+            misc: null
+        -
             event: 'Yocto Summit'
             date: 2021-05-26
             location: 'Online Conference'
