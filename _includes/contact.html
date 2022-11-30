@@ -37,6 +37,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.eclipse %}
+    <li class="website"><i class="fas fa-globe-americas"></i>
+      <a href="http://{{ sidebar.eclipse }}" target="_blank">Eclipse Foundation</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.kernel %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.kernel }}" target="_blank">Linux Kernel</a>
