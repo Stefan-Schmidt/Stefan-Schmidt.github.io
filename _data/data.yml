@@ -141,6 +141,76 @@ publications:
     papers:
         -
             event: 'SFSCon'
+            date: 2022-11-11
+            location: 'Bolzano, Italy'
+            title: 'Oniro Project – release 2.0'
+            link: 'https://www.sfscon.it/talks/oniro-project-release-2-0/'
+            slides: 'https://www.slideshare.net/SFScon/davide-ricci-oniro-project-release-20-whats-new-in-the-land-of-oniropdf'
+            video: 'https://vimeo.com/772085463'
+            paper: null
+            misc: null
+
+            event: 'SFSCon'
+            date: 2022-11-11
+            location: 'Bolzano, Italy'
+            title: 'EDDIE – Enabling Distributed Intelligence in Oniro'
+            link: 'https://www.sfscon.it/talks/eddie-enabling-distributed-intelligence-in-oniro-2/'
+            slides: 'https://www.slideshare.net/SFScon/sfscon-22-stefan-schmidt-eddie-enabling-distributed-intelligence-in-oniropdf'
+            video: 'https://vimeo.com/772016968'
+            paper: null
+            misc: null
+
+            event: 'EclipseCon'
+            date: 2022-10-27
+            location: 'Ludwigsburg, Germany'
+            title: 'EDDIE - Enabling Distributed Intelligence in Oniro'
+            link: 'https://www.eclipsecon.org/2022/sessions/eddie-enabling-distributed-intelligence-oniro'
+            slides: 'https://www.eclipsecon.org/sites/default/files/slides/2022-10-EclipseCon-EDDIE.pdf'
+            video: 'https://www.youtube.com/watch?v=KvoJPMzl3E8'
+            paper: null
+            misc: null
+
+            event: 'Open Source Summit Europe'
+            date: 2022-09-15
+            location: 'Dublin, Ireland'
+            title: 'Using OpenThread to Enable Low-Power IP Connectivity on Your MCU Project'
+            link: 'https://osseu2022.sched.com/event/15z3B/using-openthread-to-enable-low-power-ip-connectivity-on-your-mcu-project-stefan-schmidt-huawei-technologies'
+            slides: 'https://static.sched.com/hosted_files/osseu2022/11/2022-09-EIS-OpenThread.pdf'
+            video: 'https://www.youtube.com/watch?v=YkrX_A26owU'
+            paper: null
+            misc: null
+
+            event: 'Linux Plumbers Conference'
+            date: 2022-09-14
+            location: 'Dublin, Ireland'
+            title: 'Co-chaired the IoT Micro Conference at LPC'
+            link: 'https://lpc.events/event/16/sessions/138/#20220914'
+            slides: ''
+            video: 'https://youtu.be/jXcivA6iThE?t=2314'
+            paper: null
+            misc: null
+
+            event: 'RIOT Summit'
+            date: 2022-09-05
+            location: 'Hamburg, Germany'
+            title: 'Meet the Oniro project'
+            link: 'https://summit.riot-os.org/2022/blog/speakers/stefan-schmidt/'
+            slides: ''
+            video: 'https://www.youtube.com/watch?v=QWP5SUP0O7w'
+            paper: null
+            misc: null
+
+            event: 'FOSDEM'
+            date: 2022-02-06
+            location: 'Online Conference'
+            title: 'Running an OpenThread Mesh Network with Linux and Zephyr'
+            link: 'https://archive.fosdem.org/2022/schedule/event/openthread_mesh_network/'
+            slides: 'https://archive.fosdem.org/2022/schedule/event/openthread_mesh_network/attachments/slides/4908/export/events/attachments/openthread_mesh_network/slides/4908/2022_02_06_FOSDEM_Running_an_OpenThread_network.pdf'
+            video: 'https://video.fosdem.org/2022/D.embedded/openthread_mesh_network.mp4'
+            paper: null
+            misc: null
+
+            event: 'SFSCon'
             date: 2021-11-12
             location: 'Bolzano, Italy'
             title: 'The Rise of IPv6 in IoT Protocols'
