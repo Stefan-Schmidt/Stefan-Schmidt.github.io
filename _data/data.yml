@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: stefan@sostec.de
-    phone: 
+    phone:
     website: sostec.de #do not add http://
     linkedin: stefan-schmidt-84a7266
     github: stefan-schmidt
@@ -21,7 +21,7 @@ sidebar:
     kernel: git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=Stefan+Schmidt
     cv: Stefan-Schmidt-CV-2020-06-11.pdf
     bitbucket:
-    twitter: 
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -34,7 +34,7 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Snowboarding
+      - item: Running, snowboarding
         link:
 
 career-profile:
