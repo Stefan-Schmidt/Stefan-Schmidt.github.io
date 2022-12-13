@@ -150,7 +150,7 @@ publications:
             video: 'https://vimeo.com/772085463'
             paper: null
             misc: null
-
+        -
             event: 'SFSCon'
             date: 2022-11-11
             location: 'Bolzano, Italy'
@@ -160,7 +160,7 @@ publications:
             video: 'https://vimeo.com/772016968'
             paper: null
             misc: null
-
+        -
             event: 'EclipseCon'
             date: 2022-10-27
             location: 'Ludwigsburg, Germany'
@@ -170,7 +170,7 @@ publications:
             video: 'https://www.youtube.com/watch?v=KvoJPMzl3E8'
             paper: null
             misc: null
-
+        -
             event: 'Open Source Summit Europe'
             date: 2022-09-15
             location: 'Dublin, Ireland'
@@ -180,7 +180,7 @@ publications:
             video: 'https://www.youtube.com/watch?v=YkrX_A26owU'
             paper: null
             misc: null
-
+        -
             event: 'Linux Plumbers Conference'
             date: 2022-09-14
             location: 'Dublin, Ireland'
@@ -190,7 +190,7 @@ publications:
             video: 'https://youtu.be/jXcivA6iThE?t=2314'
             paper: null
             misc: null
-
+        -
             event: 'RIOT Summit'
             date: 2022-09-05
             location: 'Hamburg, Germany'
@@ -200,8 +200,8 @@ publications:
             video: 'https://www.youtube.com/watch?v=QWP5SUP0O7w'
             paper: null
             misc: null
-
-            event: 'FOSDEM''
+        -
+            event: FOSDEM'
             date: 2022-02-06
             location: 'Online Conference'
             title: 'Running an OpenThread Mesh Network with Linux and Zephyr'
@@ -210,7 +210,7 @@ publications:
             video: 'https://video.fosdem.org/2022/D.embedded/openthread_mesh_network.mp4'
             paper: null
             misc: null
-
+        -
             event: 'SFSCon'
             date: 2021-11-12
             location: 'Bolzano, Italy'
