@@ -201,7 +201,7 @@ publications:
             paper: null
             misc: null
 
-            event: 'FOSDEM'
+            event: 'FOSDEM''
             date: 2022-02-06
             location: 'Online Conference'
             title: 'Running an OpenThread Mesh Network with Linux and Zephyr'
