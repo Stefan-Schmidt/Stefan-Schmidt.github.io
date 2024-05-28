@@ -141,6 +141,56 @@ publications:
     intro: "Over the years I became a regular public speaker on Open Source conferences. A not fully comprehensive list of my talks can be found below. \n"
     papers:
         -
+            event: 'Linux Plumbers Conference'
+            date: 2023-11-15
+            location: 'Richmond Virginia, USA'
+            title: 'Co-chaired the IoT Micro Conference at LPC'
+            link: 'https://lpc.events/event/17/sessions/164/#20231115'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'EclipseCon'
+            date: 2023-10-18
+            location: 'Ludwigsburg, Germany'
+            title: 'Bringing Graphical Applications to Oniro on the Example of React Native'
+            link: 'https://www.eclipsecon.org/2023/sessions/bringing-graphical-applications-oniro-example-react-native'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Embedded Open Source Summit'
+            date: 2023-06-27
+            location: 'Prague, Czech Republic'
+            title: 'How Eclipse Oniro Uses Zephyr – Lessons Learned'
+            link: 'https://eoss2023.sched.com/event/1LcPz'
+            slides: 'https://static.sched.com/hosted_files/eoss2023/1e/2023-06-EOSS-Oniro-Zephyr.pdf'
+            video: 'https://www.youtube.com/watch?v=4P4_xh_YHKE'
+            paper: null
+            misc: null
+        -
+            event: 'LinaroConnect'
+            date: 2023-04-28
+            location: 'London, UK'
+            title: 'Bringing OpenHarmony Compatibility to Oniro'
+            link: 'https://linaroconnect2023.sched.com/event/1K86M/lhr23-302-bringing-openharmony-compatibility-to-oniro'
+            slides: 'https://static.sched.com/hosted_files/linaroconnect2023/01/LHR23-Oniro-scale-Openharmony.pdf'
+            video: null
+            paper: null
+            misc: null
+        -
+            event: FOSDEM'
+            date: 2023-02-04
+            location: 'Brussels, Belgium'
+            title: 'Matter and Thread as Connectivity Solution for Embedded'
+            link: 'https://archive.fosdem.org/2023/schedule/event/matter_and_thread/'
+            slides: 'https://archive.fosdem.org/2023/schedule/event/matter_and_thread/attachments/slides/5583/export/events/attachments/matter_and_thread/slides/5583/2023_02_FOSDEM_OpenThread_Matter.pdf'
+            video: 'https://video.fosdem.org/2023/UD2.120%20(Chavanne)/matter_and_thread.mp4'
+            paper: null
+            misc: null
+        -
             event: 'SFSCon'
             date: 2022-11-11
             location: 'Bolzano, Italy'
