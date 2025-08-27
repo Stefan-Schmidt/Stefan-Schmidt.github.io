@@ -141,6 +141,76 @@ publications:
     intro: "Over the years I became a regular public speaker on Open Source conferences. A not fully comprehensive list of my talks can be found below. \n"
     papers:
         -
+            event: 'Open Source Summit North America'
+            date: 2025-06-24
+            location: 'Denver, USA'
+            title: 'ARM64 Linux Laptops Status Report'
+            link: 'https://ossna2025.sched.com/event/1zfk9/arm64-linux-laptops-status-report-stefan-schmidt-linaro-ltd'
+            slides: 'https://static.sched.com/hosted_files/ossna2025/f9/2025-06-OSS-ELC-ARM-laptop-status.pdf'
+            video: 'https://www.youtube.com/watch?v=OG8YgXzmr0Y'
+            paper: null
+            misc: null
+        -
+            event: 'Open Source Summit North America'
+            date: 2025-06-23
+            location: 'Denver, USA'
+            title: 'BoF: State of Linux on ARM Laptops'
+            link: 'https://ossna2025.sched.com/event/26NaA/bof-state-of-linux-on-arm-laptops-mani-sadhasivam-stefan-schmidt-linaro-ltd'
+            slides: ''
+            video: 'https://www.youtube.com/watch?v=664UPpOi4q4'
+            paper: null
+            misc: null
+        -
+            event: 'Linaro Connect'
+            date: 2025-05-14
+            location: 'Lisbon, Portugal'
+            title: 'LIS25-110 End-to-End Video Hardware Acceleration on Snapdragon X Elite Laptops'
+            link: 'https://resources.linaro.org/en/resource/uNwFXSqaTmNKjSLq1Q5ZFP'
+            slides: 'https://resources.linaro.org/en/resource/uNwFXSqaTmNKjSLq1Q5ZFP'
+            video: 'https://resources.linaro.org/en/resource/uNwFXSqaTmNKjSLq1Q5ZFP'
+            paper: null
+            misc: null
+        -
+            event: 'SFSCon'
+            date: 2024-11-09
+            location: 'Bolzano, Italy'
+            title: 'ARM Linux Laptops for Developers Status Report'
+            link: 'https://www.sfscon.it/talks/arm-linux-laptops-for-developers-status-report/'
+            slides: 'https://www.sfscon.it/wp-content/uploads/2024/11/17309059318552024-SFSCON-ARM-laptops.pdf'
+            video: 'https://vimeo.com/1029953586?fl=pl&fe=sh'
+            paper: null
+            misc: null
+        -
+            event: 'Linux Plumbers Conference'
+            date: 2024-09-20
+            location: 'Vienna, Austria'
+            title: 'Linux-wpan: SubGHz, UWB and userspace needs'
+            link: 'https://lpc.events/event/18/contributions/1701/'
+            slides: 'https://lpc.events/event/18/contributions/1701/attachments/1620/3352/2024-LPC-IoT-Embedded-wpan.pdf'
+            video: 'https://www.youtube.com/watch?v=72G1YiEw2yY'
+            paper: null
+            misc: null
+        -
+            event: 'Linux Plumbers Conference'
+            date: 2024-09-20
+            location: 'Vienna, Austria'
+            title: 'Co-chaired the Embedded & IoT Micro Conference at LPC'
+            link: 'https://lpc.events/event/18/sessions/203/#20240920'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
+            event: 'Volla Community Days'
+            date: 2024-06-15
+            location: 'Remscheid, Germany'
+            title: 'Oniro as a Mobile Mainline Linux Kernel Operating System'
+            link: 'https://volla.online/de/blog/files/vcd-2024.html'
+            slides: null
+            video: null
+            paper: null
+            misc: null
+        -
             event: 'Linux Plumbers Conference'
             date: 2023-11-15
             location: 'Richmond Virginia, USA'
