@@ -156,7 +156,7 @@ publications:
             location: 'Denver, USA'
             title: 'BoF: State of Linux on ARM Laptops'
             link: 'https://ossna2025.sched.com/event/26NaA/bof-state-of-linux-on-arm-laptops-mani-sadhasivam-stefan-schmidt-linaro-ltd'
-            slides: ''
+            slides: null
             video: 'https://www.youtube.com/watch?v=664UPpOi4q4'
             paper: null
             misc: null
